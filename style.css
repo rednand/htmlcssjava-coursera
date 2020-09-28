@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+#box{
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 40px;
+    width: 300px;
+    height: 50px;
+    box-sizing:  border-box;
+    /*overflow: visible; ---- conteudo sai para fora do box visivelmente* - é default*/
+    overflow: auto; /* scrollbar é colocada para ver o resto */
+}
+
+#content{
+    background-color: #90ee90;
+}
+
+h1{
+    margin-bottom: 30px;
+}
